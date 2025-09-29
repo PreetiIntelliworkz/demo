@@ -1,9 +1,9 @@
-name: Demo Deploy Laravel (Developer Branch)
+name: Manual Deploy Laravel (Developer Branch)
 
 on:
-  push:
-    branches:
-      - developer   # 👈 runs only when you push to developer
+  # push:
+  #   branches:
+  #     - developer   # 👈 runs only when you push to developer
   workflow_dispatch:   # allows manual run from Actions tab
 
 jobs:
