@@ -1,9 +1,5 @@
-name: Deploy Laravel to Azure App Service
-
+name: Manual Laravel to Azure App Service
 on:
-  push:
-    branches:
-      - developer   # 👈 change to "developer" if you deploy that branch
   workflow_dispatch:
 
 jobs:
