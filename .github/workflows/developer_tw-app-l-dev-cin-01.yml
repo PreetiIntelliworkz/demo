@@ -1,10 +1,11 @@
-name: Deploy Laravel to Azure App Service
+name: Demo Deploy Laravel (Developer Branch)
 
 on:
   push:
     branches:
-      - developer   # 👈 change to "developer" if you deploy that branch
-  workflow_dispatch:
+      - developer   # 👈 runs only when you push to developer
+  workflow_dispatch:   # allows manual run from Actions tab
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
